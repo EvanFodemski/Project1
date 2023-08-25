@@ -1,30 +1,30 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;  /*Affects top of screen, says for no room between image/box and left, right,top, and bottom of screen */
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+    body {       /*Sets backround color for main section of the page */
+    background-color: #d9dcd6;      
 }
 
-header {
+    header {     /*Thickness of Header, Fonts and backup FOnts and Color of text and Header itself*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+    header h1 {    /* Sets type of display, and size of Header font*/
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+     header h1 .seo {   /*Sets color for "SEO" on main title at top left */
     color: #d9dcd6;
 }
 
-header nav {
+    header nav {  /*Sets positioning of images and fonts and font sizes near the images*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,25 +32,25 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+    header nav ul {      /*Sets type of list for text near images */
     list-style-type: none;
 }
 
-header nav ul li {
+    header nav ul li {   /*Sets type of display and relative positioning to border for Header nav*/
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+    a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+    p {     /* Sets font size for Paragraph*/
     font-size: 16px;
 }
 
-.hero {
+    .hero {      /* Sets position of main image as well as size */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +59,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+    .floatleft {   /* Sets position of images with class id of floatleft to the left*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+    .floatright {  /*Sets images with class od of floatright to the right*/
     float: right;
     margin-left: 25px;
-}
+} 
 
-main {
+    main {  /*Sets display fir main section as well as width */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+    .Benefits {    /*Sets aside section to be to the side like its name suggests, as well as starting the formatting for the images, and Fonts, and Background color.*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,12 +86,12 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+    .SideSection {   /* Sets margin and font color for SideSection*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* .benefit-brand {      
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,14 +99,15 @@ main {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+}  Commented out due to DRY rule, chose not to delete in case needed later for reference. 
+*/
 
-.benefit-lead h3 {
+    .SideSection h3 {   /*Sets margin and text alignment for the SideSection*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -114,15 +115,16 @@ main {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}  Commented out due to DRY rule, chose not to delete in case needed later for reference. 
+*/
 
-.benefit-lead img {
+    .SideSection img {   /*Sets display and margin for sidesection images and text*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -132,9 +134,9 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.middle-section {
+    .middle-section {  /*sets middle section relative position, fonts, text color, and Background color*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,7 +163,7 @@ main {
     color: #ffffff;
 } */
 
-.middle-section img {
+    .middle-section img {   /*Sets middle height image(s) max height*/
     max-height: 200px;
 }
 
@@ -173,7 +175,7 @@ main {
     max-height: 200px;
 } */
 
-.middle-section h2 {
+    .middle-section h2 {   /*Middle section Font relative position*/
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -188,13 +190,13 @@ main {
     font-size: 36px;
 } */
 
-.footer {
+    footer {   /*Footer text relative position and font*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+    footer h2 {  /* Footer font size*/
     font-size: 20px;
 }
