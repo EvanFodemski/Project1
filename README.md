@@ -10,6 +10,9 @@ In this Project I followed the acceptance Criteria while also attempting to keep
 #### ScreenShot
 
 
-
+![Alt text](<assets/images/Project 1 ss.PNG>)
 
 #### Link to Deployed Application
+https://evanfodemski.github.io/Project1/#social-media-marketing
+#### Note
+All Code modifications were done by me and only with the help of a tutor at one point. No code was copied from other sources or done by somebody else.
